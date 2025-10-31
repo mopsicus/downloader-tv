@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Downloader TV+</string>
+
+    <!-- Menu -->
+    <string name="menu_download">Download</string>
+    <string name="menu_copy">Copy</string>
+
+    <!-- Download Fragment -->
+    <string name="download_title">File Download</string>
+    <string name="download_url_label">Enter file URL:</string>
+    <string name="download_url_hint">https://example.com/file.pdf</string>
+    <string name="download_button">Download</string>
+    <string name="download_success">File downloaded successfully</string>
+    <string name="download_error">File download error</string>
+    <string name="download_permission_denied">No write permission</string>
+    <string name="download_invalid_url">Invalid URL</string>
+    <string name="download_in_progress">Downloading...</string>
+
+    <!-- Copy Fragment -->
+    <string name="copy_title">File Copy</string>
+    <string name="copy_select_button">Select File</string>
+    <string name="copy_open_button">Open</string>
+    <string name="copy_clipboard_button">Copy</string>
+    <string name="copy_no_file_selected">No file selected</string>
+    <string name="copy_success">Copied to clipboard</string>
+    <string name="copy_error">File read error</string>
+    <string name="copy_file_too_large">File is too large</string>
+</resources>

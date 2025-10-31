@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy_title"
+        android:textSize="28sp"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/copy_select_button"
+        android:textSize="18sp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:focusable="true"
+        android:nextFocusDown="@+id/btnOpenFile"/>
+
+    <TextView
+        android:id="@+id/tvFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy_no_file_selected"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="32dp"
+        android:maxLines="2"
+        android:ellipsize="middle"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <Button
+            android:id="@+id/btnOpenFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="200dp"
+            android:minHeight="48dp"
+            android:text="@string/copy_open_button"
+            android:textSize="18sp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button_selector"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="none"
+            android:enabled="false"
+            android:focusable="true"
+            android:nextFocusUp="@+id/btnSelectFile"
+            android:nextFocusRight="@+id/btnCopyToClipboard"/>
+
+        <Button
+            android:id="@+id/btnCopyToClipboard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="200dp"
+            android:minHeight="48dp"
+            android:text="@string/copy_clipboard_button"
+            android:textSize="18sp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:background="@drawable/button_selector"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="none"
+            android:enabled="false"
+            android:focusable="true"
+            android:nextFocusUp="@+id/btnSelectFile"
+            android:nextFocusLeft="@+id/btnOpenFile"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCopyStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:visibility="gone"/>
+
+</LinearLayout>

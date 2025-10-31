@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Downloader TV+</string>
+    
+    <!-- Menu -->
+    <string name="menu_download">Загрузка</string>
+    <string name="menu_copy">Копирование</string>
+    
+    <!-- Download Fragment -->
+    <string name="download_title">Загрузка файлов</string>
+    <string name="download_url_label">Введите URL файла:</string>
+    <string name="download_url_hint">https://example.com/file.pdf</string>
+    <string name="download_button">Загрузить</string>
+    <string name="download_success">Файл успешно загружен</string>
+    <string name="download_error">Ошибка загрузки файла</string>
+    <string name="download_permission_denied">Нет разрешения на запись</string>
+    <string name="download_invalid_url">Некорректный URL</string>
+    <string name="download_in_progress">Загрузка...</string>
+    
+    <!-- Copy Fragment -->
+    <string name="copy_title">Копирование файлов</string>
+    <string name="copy_select_button">Выбрать файл</string>
+    <string name="copy_open_button">Открыть</string>
+    <string name="copy_clipboard_button">Копировать</string>
+    <string name="copy_no_file_selected">Файл не выбран</string>
+    <string name="copy_success">Скопировано в буфер обмена</string>
+    <string name="copy_error">Ошибка чтения файла</string>
+    <string name="copy_file_too_large">Файл слишком большой</string>
+</resources>
