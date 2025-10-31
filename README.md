@@ -39,6 +39,20 @@ This app provides a simple interface optimized for TVs, with support for navigat
 - **Permission handling** - modern Android permissions with Activity Result API
 - **Coroutines** - async file operations without blocking UI
 
+## 📷 Screenshots
+
+<p align="center">
+    <picture>
+        <img alt="Downloader TV+ get file" height="288" width="512" src="media/downloader-tv-get.jpg">
+    </picture>
+</p>
+
+<p align="center">
+    <picture>
+        <img alt="Downloader TV+ copy to clipboard" height="288" width="512" src="media/downloader-tv-copy.jpg">
+    </picture>
+</p>
+
 # 🚀 Usage
 
 ### Installation

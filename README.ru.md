@@ -39,6 +39,20 @@ Downloader TV+ — это нативное Android приложение, раз�
 - **Управление разрешениями** - современный API разрешений Android
 - **Coroutines** - асинхронные операции без блокировки UI
 
+## 📷 Скриншоты
+
+<p align="center">
+    <picture>
+        <img alt="Downloader TV+ get file" height="288" width="512" src="media/downloader-tv-get.jpg">
+    </picture>
+</p>
+
+<p align="center">
+    <picture>
+        <img alt="Downloader TV+ copy to clipboard" height="288" width="512" src="media/downloader-tv-copy.jpg">
+    </picture>
+</p>
+
 # 🚀 Использование
 
 ### Установка
